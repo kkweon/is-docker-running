@@ -2,9 +2,14 @@
     "name": "is-docker-running",
     "version": "1.0.2",
     "description": "Check if a docker container is running",
+    "keywords": ["Docker"],
+    "homepage": "https://github.com/kkweon/is-docker-running",
+    "bugs": {
+        "url": "https://github.com/kkweon/is-docker-running/issues"
+    },
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
-    "author": "Mo Kweon",
+    "author": "Mo Kweon <kkweon@gmail.com>",
     "license": "MIT",
     "private": false,
     "scripts": {
@@ -22,5 +27,9 @@
     },
     "dependencies": {
         "chalk": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:kkweon/is-docker-running.git"
     }
 }
