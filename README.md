@@ -18,7 +18,7 @@ yarn add is-docker-running
 
 ```js
 const isDockerRunning = require("is-docker-running");
-isDockerRunning.findContainerByName("db"); # returns true/false
+isDockerRunning.findContainerByName("db"); // returns Promise<boolean>
 ```
 
 ### CLI
