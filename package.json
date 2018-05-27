@@ -1,8 +1,10 @@
 {
     "name": "is-docker-running",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Check if a docker container is running",
-    "keywords": ["Docker"],
+    "keywords": [
+        "Docker"
+    ],
     "homepage": "https://github.com/kkweon/is-docker-running",
     "bugs": {
         "url": "https://github.com/kkweon/is-docker-running/issues"
