@@ -1,6 +1,6 @@
 {
     "name": "is-docker-running",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Check if a docker container is running",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
