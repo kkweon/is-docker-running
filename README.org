@@ -1,0 +1,26 @@
+* is-docker-running
+
+A simple library to check if a docker container is running by the name
+
+** Installation
+#+BEGIN_SRC bash
+  npm install is-docker-running
+#+END_SRC
+
+#+BEGIN_SRC bash
+  yarn add is-docker-running
+#+END_SRC
+
+
+** Usage
+
+*** In commonjs
+#+BEGIN_SRC js
+  const isDockerRunning = require("is-docker-running");
+  isDockerRunning.findContainerByName("db"); # returns true/false
+#+END_SRC
+
+*** as a CLI
+#+BEGIN_SRC bash
+find-docker-by-name ps
+#+END_SRC
