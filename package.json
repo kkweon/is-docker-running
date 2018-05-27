@@ -1,6 +1,6 @@
 {
     "name": "is-docker-running",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Check if a docker container is running",
     "keywords": [
         "Docker"
