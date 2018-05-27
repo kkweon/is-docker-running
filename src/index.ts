@@ -11,4 +11,3 @@ export async function findContainerByName(name: string): Promise<boolean> {
         return false;
     }
 }
-findContainerByName("db");
