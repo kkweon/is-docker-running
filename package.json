@@ -15,14 +15,16 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "tsc",
+    "build": "yarn check-all && tsc",
+    "check-all": "yarn format && yarn lint && yarn test",
     "test": "mocha -r ts-node/register src/**/*.spec.ts",
+    "lint": "yarn tslint --project .",
     "format": "prettier --write \"./src/**/*.{ts,js,json}\" \"*.{ts,js,json}\""
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn format && yarn test",
-      "pre-push": "yarn format && yarn test"
+      "pre-commit": "yarn check-all",
+      "pre-push": "yarn check-all"
     }
   },
   "bin": {
