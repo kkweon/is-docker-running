@@ -1,4 +1,6 @@
 # is-docker-running
+[![Build Status](https://travis-ci.org/kkweon/is-docker-running.svg?branch=master)](https://travis-ci.org/kkweon/is-docker-running)
+
 
 A simple library to check if a docker container is running by the name
 
