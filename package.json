@@ -1,0 +1,26 @@
+{
+    "name": "is-docker-running",
+    "version": "1.0.1",
+    "description": "Check if a docker container is running",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "author": "Mo Kweon",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "build": "tsc"
+    },
+    "bin": {
+        "find-docker-by-name": "./bin/cli.js"
+    },
+    "devDependencies": {
+        "@types/node": "^10.1.2",
+        "chai": "^4.1.2",
+        "mocha": "^5.2.0",
+        "tslint": "^5.10.0",
+        "typescript": "^2.8.3"
+    },
+    "dependencies": {
+        "chalk": "*"
+    }
+}
